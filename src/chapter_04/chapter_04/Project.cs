@@ -1,4 +1,6 @@
-﻿namespace chapter_04
+﻿using System;
+
+namespace chapter_04
 {
    class Project
    {
@@ -8,6 +10,7 @@
 
       public Project(string name, v8.Employee owner)
       {
+            int szam = 12;
          Name = name;
          this.owner = owner;
       }
